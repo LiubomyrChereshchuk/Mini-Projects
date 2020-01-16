@@ -28,25 +28,14 @@ btnGo.onclick = () => {
                 wind.innerHTML = `Швидкість вітру:<br>${data.wind['speed']}`;
                 visibility.innerHTML = `Видимість<br>${data.visibility}`;
                 // document.querySelector('input').value = '';
-                // code here
+               
 
             }
         })
         .catch(function (e) {
-            // cathc any errors
+         
             console.log(e);
         });
 
 }
 
-
-// fetch('http://api.openweathermap.org/data/2.5/weather?q=London&appid=9d7ea6f1e3843ea43e6b631fe2e0ea20')
-//     .then(function (resp) {
-//         return resp.json();
-//     })
-//     .then(function (data) {
-//         console.log(data);
-//     })
-//     .catch(function () {
-//         // cathc any errors
-//     });

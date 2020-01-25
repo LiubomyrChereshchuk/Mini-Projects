@@ -118,7 +118,7 @@ function gameStart() {
 
 }
 
-//move bird function
+//move the bird function
 document.onkeydown = () => {
     birdY -= 35;
     fly.play();
